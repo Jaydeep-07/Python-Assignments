@@ -1,0 +1,14 @@
+from sys import*
+import os.path
+
+
+def main():
+	
+	#file=open(argv[1],'r');
+	
+	Str=input("Enter The String");
+	Str=Str.split();
+	print(Str)
+
+if __name__=="__main__":
+	main();
